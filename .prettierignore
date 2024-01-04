@@ -1,0 +1,12 @@
+
+.local
+.husky
+.vscode
+.history
+
+/node_modules/**
+/dist/*
+**/*.svg
+**/*.sh
+
+index.html

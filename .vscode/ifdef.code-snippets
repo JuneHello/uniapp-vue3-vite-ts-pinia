@@ -1,0 +1,31 @@
+{
+  "init jsifdef": {
+    "scope": "typescript",
+    "prefix": "jsif",
+    "description": "Add #ifdef and #endif",
+    "body": [
+      "// #ifdef ${1|MP-WEIXIN,H5,APP-PLUS,MP-ALIPAY,MP-BAIDU,MP-TOUTIAO|}\n",
+      "// #endif"
+    ],
+    "description": "js的ifdef模板"
+  },
+  "init cssifdef": {
+    "scope": "scss",
+    "prefix": "cssif",
+    "description": "Add #ifdef and #endif",
+    "body": [
+      "/* #ifdef ${1|MP-WEIXIN,H5,APP-PLUS,MP-ALIPAY,MP-BAIDU,MP-TOUTIAO|} */\n",
+      "/* #endif */"
+    ],
+    "description": "css的ifdef模板"
+  },
+  "init vueifdef": {
+    "scope": "html",
+    "prefix": "vueif",
+    "body": [
+      "<!-- #ifdef ${1|MP-WEIXIN,H5,APP-PLUS,MP-ALIPAY,MP-BAIDU,MP-TOUTIAO|} -->\n",
+      "<!-- #endif -->"
+    ],
+    "description": "vue/nvue的ifdef模板"
+  },
+}
